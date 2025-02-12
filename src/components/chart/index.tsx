@@ -10,7 +10,7 @@ import { ChartConfig, ChartContainer } from "../ui/chart";
 const chartData = [
   { month: "January", desktop: 186, mobile: 80 },
   { month: "February", desktop: 35, mobile: 200 },
-  { month: "March", desktop: 237, mobile: 120 },
+  { month: "March", desktop: 17, mobile: 120 },
   { month: "April", desktop: 73, mobile: 190 },
   { month: "May", desktop: 209, mobile: 130 },
   { month: "June", desktop: 214, mobile: 140 },
@@ -35,7 +35,7 @@ const chartConfig = {
 
 const ChartOverview = () => {
   return (
-    <Card className="w-full md:w-1/5 md:max-w-[600px]">
+    <Card className="w-full md:w-1/2 md:max-w-[600px]">
       <CardHeader>
         <div className="flex items-center justify-center">
           <CardTitle className="text-lg sm:text-xl text-gray-800">
