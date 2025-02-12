@@ -1,5 +1,6 @@
 import { DollarSign } from "lucide-react";
 
+import ChartOverview from "@/components/chart";
 import {
   Card,
   CardContent,
@@ -31,6 +32,10 @@ export default function Home() {
             </CardContent>
           </Card>
         ))}
+      </section>
+
+      <section className="mt-4 flex flex-col md:flex-row gap-4">
+        <ChartOverview />
       </section>
     </main>
   );
